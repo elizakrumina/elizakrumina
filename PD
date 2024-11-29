@@ -53,8 +53,8 @@ y = int(input('Enter y: '))
 except ValueError:
 print('x or y = int')
 y1 = (4 * x * (y + 3)) + 15 * y
-y2 = ((5 * y * x) - 144 x + 2) / (x + y) * 2
-y3 = (2 + x - 2 x y) / (y / (x + y))
+y2 = ((5 * y * x) - 144 * x + 2) / (x + y) * 2
+y3 = (2 + x - 2 * x * y) / (y / (x + y))
 
 
 
