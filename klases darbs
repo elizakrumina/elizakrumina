@@ -1,0 +1,67 @@
+import random 
+
+x = random.random()
+print(x)
+
+
+
+
+
+
+import random
+
+x = random.randint(1,6)
+print(x)
+
+
+
+
+
+import random
+
+for i in range (0, 10) :
+    x = random.randint(1,6)
+    print(x)
+    
+    
+    
+    
+import random
+
+result = 0
+for i in range (0, 10) :
+    x = random.randint(1,6)
+    print(x)
+    result = result + x
+    
+    print(result)
+    
+    
+ import random
+    
+    dilers = 0
+    speletajs = 0
+    turpinat = True
+    
+    for i in range (0, 2):
+        speletajs += random.randint(1,11)
+        dilers += random.randint(1,11)
+        
+    if dilers == 21 
+            print("dileris uzvareja!")
+    elif dilers > 21:
+            print("dileris uzvareja!")
+           
+     if speletajs == 21 
+            print("speletajs uzvareja!")
+    elif speletajs > 21:
+            print("speletajs uzvareja!")
+            
+            
+    while turpinat:
+            user = input("panemt vel vienu karti? [Y/N]")
+            if user == "N" or user == "n":
+                break
+            
+     speletajs += random.randint(1,11)
+     print(speletajs)
