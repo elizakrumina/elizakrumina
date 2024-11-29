@@ -4,7 +4,7 @@ e = int(input('Enter e: '))
 print(e)
 a = float(input('Enter a: '))
 print(a)
-k = string(input('Enter k: '))
+k = input('Enter k: '))
 print(k)
 
 
@@ -52,9 +52,12 @@ x = int(input('Enter x: '))
 y = int(input('Enter y: '))
 except ValueError:
 print('x or y = int')
-y1 = (4 * x * (y + 3)) + 15 * y
-y2 = ((5 * y * x) - 144 * x + 2) / (x + y) * 2
+y1 = (4 * x ** (y + 3)) + 15 * y
+print(y1)
+y2 = ((5 * y ** x) - 144 * x + 2) / (x + y) ** 2
+print(y2)
 y3 = (2 + x - 2 * x * y) / (y / (x + y))
+print(y3)
 
 
 
@@ -70,13 +73,13 @@ if 9 <= Atzime <= 10:
 print("Atzime: A")
 if 7 <= Atzime < 8:
 print("Atzime: B")
-if 6 <= Atzime < 7:
-print("Atzime: C")
 if 5 <= Atzime < 6:
+print("Atzime: C")
+if 3 <= Atzime < 4:
 print("Atzime: D")
-if 4 <= Atzime < 5:
+if 1 <= Atzime < 2:
 print("Atzime: E")
-if 0 <= Atzime < 4:
+if 0 <= Atzime < 0:
 print("Atzime: F")
 if 0< Atzime > 10:
 print("Nepareiza atzime! Ievadiet skaitli no 0 līdz 10.")
