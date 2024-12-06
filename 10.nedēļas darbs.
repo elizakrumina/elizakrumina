@@ -3,8 +3,8 @@
 length = int(input ("length: "))
 height = int(input ("height: "))
 for i in range(0,length):
- for j in range(0,height):
-    print("*", end = " ")
+    for j in range(0,height):
+        print("*", end = " ")
     print ()
 
 
