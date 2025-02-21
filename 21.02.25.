@@ -1,0 +1,47 @@
+def myFirstFunction(name):
+    #print("Sveika," + name + "!")
+    print(f"Sveika, {name}!")
+    
+    
+myFirstFunction("Anna")
+
+
+
+
+
+
+
+
+
+def sum_numbers(a, b):
+    return a + b
+    
+    
+result = sum_numbers(5, 3)
+print(result)
+
+
+
+
+
+
+
+
+
+def is_even(n):
+    if n % 2 == 0:
+        print("true")
+    else:
+        print("false")
+    
+(is_even(4))
+(is_even(7))
+
+
+
+
+
+
+
+
+
