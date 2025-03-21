@@ -1,0 +1,21 @@
+class Block:
+    counter = 0
+    def __init__(self, name, texture, canBrake):
+        self.nosaukums = name
+        self.tekstura = texture
+        self.varIznicinat = canBreak
+        self.id = Block.counter
+        Block.counter += 1
+        
+        print(f"Ir izveidots jaunais bloks: {self.id} {self.name})
+        
+    def __str__(self):
+        return (f"{self.id} {self.nosaukums} {self.tekstura} {self.varIznicinat}")
+        
+bloks1 = Block("Stone", "Stone.png", True)
+bloks2 = Block("Stone2", "Stone2.png", True)
+bloks3 = Block("Stone3", "Stone3.png", False)
+
+print(bloks1)
+print(bloks2)
+print(bloks3)
